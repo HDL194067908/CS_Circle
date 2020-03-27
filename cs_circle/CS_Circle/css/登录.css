@@ -1,0 +1,83 @@
+body
+{
+    background-image: linear-gradient(-90deg, #99FFFF 0%, #99FF33 100%);
+    position:relative;	
+}
+
+#logOn{
+	position:absolute;
+	right:120px;
+	top:180px;
+	border:0.1px solid #339999;
+	background:rgba(0,0,0,0.2) none repeat scroll !important; /*实现FF背景透明，文字不透明*/
+    background:#000; filter:Alpha(opacity=20);/*实现IE背景透明*/ 
+	border-radius:4px;
+}
+#register{
+	float:right;
+	
+}
+#register a{
+	text-decoration:none;
+}
+#register a:hover{
+	text-decoration:none;
+	color:#33FFFF;
+}
+form{
+    margin:20px;
+	
+}
+#tip{
+	font-size:1.5em;
+
+}
+form #submit{
+	float:right;
+	margin-top:10px;
+	margin-bottom:20px;
+	width:180px;
+	height:30px;
+	border-radius:4px;
+	background-color:#a0a0a0;
+	
+}
+form .inputbox{
+	width:360px;
+	height:30px;
+	border-radius:4px;
+}
+#Tips{
+	position:absolute;
+	left:120px;
+	top:160px;
+	width:400px;
+}
+#title{
+	font-size:1.2em;
+	background-color:#33CCFF;
+	height:40px;
+	line-height:40px;
+	border-radius:4px;
+	color:white;
+}
+#content{
+	background-color:#FFFFFF;
+	height:220px;
+	border-radius:4px;
+	background:rgba(255, 255, 255, 0.15) none repeat scroll !important; /*实现FF背景透明，文字不透明*/
+    background:#000; filter:Alpha(opacity=20);/*实现IE背景透明*/ 
+	color:white;
+}
+form #yzminput{
+	height:30px;
+	border-radius:4px;
+}
+form #yzm{
+	margin-left:10px;
+	border-radius:4px;
+}
+form label{
+	width:10px;
+	color:red;
+}

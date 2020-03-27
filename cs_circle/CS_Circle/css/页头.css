@@ -1,0 +1,46 @@
+body{
+	width:1080px;
+	margin:0 auto;
+}
+#box{
+	 display: flex;
+	 justify-content:center;
+	 background-color:black;
+	 border-radius:4px;
+	 color:white;
+	 height:250px;
+}
+#indexL{
+	width:360px;
+	border-radius:4px;
+	color:white;
+	padding-left:10px;
+	
+}
+#HeaderImage{
+    width:120px;
+	height:120px;
+	border-radius:4px;
+}
+#indexC{
+	width:620px;
+	border-radius:4px;
+	padding-top:220px;
+	text-align:left;
+	
+}
+#indexR{
+	width:100px;
+	border-radius:4px;
+	padding-top:220px;
+	
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+.nav{
+	width:100%;
+	height:10px;
+	clear:both;
+}

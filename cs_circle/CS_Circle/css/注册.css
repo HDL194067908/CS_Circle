@@ -1,0 +1,50 @@
+body
+{
+    background-image: linear-gradient(-90deg, #99FFFF 0%, #99FF33 100%);  
+	margin-top:70px;
+	text-align:center;
+}
+
+#title{
+	font-size:2em;
+	color:white;
+}
+#contain{
+	width:500px;
+	padding:50px;
+	margin:10px auto;
+	background:rgba(255, 255, 255, 0.15) none repeat scroll !important; /*实现FF背景透明，文字不透明*/
+    background:#000; filter:Alpha(opacity=20);/*实现IE背景透明*/ 
+	border-radius:4px;
+}
+#content{
+	background-color:#CCFFFF;
+	width:420px;
+	padding:10px;
+	margin:0 auto;
+	border-radius:4px;
+}
+#content input{
+	border-radius:4px;
+}
+form .re_text{
+	width:240px;
+	height:30px;
+}
+form .re_sub{
+	width:120px;
+	height:30px;
+}
+form #yzminput{
+	width:140px;
+	height:30px;
+	border-radius:4px;
+}
+form #yzm{
+	border-radius:4px;
+}
+form label{
+	width:40px;
+	color:red;
+	
+}
